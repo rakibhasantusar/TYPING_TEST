@@ -121,7 +121,7 @@ const start = () => {
 
       clearInterval(startCountdown);
       startTime = new Date().getTime();
-      countdownOverlay.innerText = ''; //without reload coundown starting with 0 fix 
+      countdownOverlay.innerText = ''; //without reload coundown starting with 0 fix done
     }
     count--;
   }, 1000);
